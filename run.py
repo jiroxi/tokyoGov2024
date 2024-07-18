@@ -11,13 +11,14 @@ with open("localize.json") as jsonf:
 bar = "\n-----------------"
 
 def get_locale():
-    locale = input("Choose a language ・ 言語を選択してください ・ Escoge un idioma:\n\n1. English\t2. 日本語\t3. Español\n")
-    if locale == '1':
-        return "en"
-    elif locale == '2':
-        return "jp"
-    elif locale == '3':
-        return "es"
+    while True:
+        locale = input("Choose a language ・ 言語を選択してください ・ Escoge un idioma:\n\n1. English\t2. 日本語\t3. Español\n")
+        if locale == '1':
+            return "en"
+        elif locale == '2':
+            return "jp"
+        elif locale == '3':
+            return "es"
 
 def get_candidate(locale):
     # PROMPT: Which results would you like to see?  1. Individual candidates  2. Minor candidates combined  3. Voter turnout
