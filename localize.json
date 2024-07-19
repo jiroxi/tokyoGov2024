@@ -1,0 +1,187 @@
+{
+    "prompts": {
+        "result_type": {
+            "en": "\nWhich results would you like to see?\n\n1. Individual candidates\t2. Minor candidates combined (non-Top 3)\t3. Voter turnout\n",
+            "jp": "\n表示する結果を選択してください\n\n1. 候補者ごと\t2. 4位以下の合計得票数\t3.投票率\n",
+            "es": "\n¿Cuales resultados quieres ver?\n\n1. Candidatos individuales\t2. Candidatos menores combinados (no-Top 3)\t3. Participación electoral\n"
+        },
+        "candidate_num": {
+            "en": "\nChoose a candidate:\n",
+            "jp": "\n候補者を選択してください：\n",
+            "es": "\nElige un candidato:\n"
+        },
+        "scale": {
+            "en": "\nWhich scale would you like to use?\n",
+            "jp": "\nスケーリング方法を指定してください：\n",
+            "es": "\n¿Cuál escala quieres usar?\n"
+        },
+        "exclude_islands": {
+            "en": "\nExclude outlying islands?\n\n1. [Y]es\t2. [N]o\n",
+            "jp": "\n島嶼部を除きますか？\n\n1. 除く\t2. 除かない\n",
+            "es": "\n¿Excluir las islas periféricas?\n\n1. Sí\t2. No\n"
+        },
+        "repeat": {
+            "en": "Open another map?\n\n1. No, exit\t2. Start from top\t3. Change candidate only\t4. Change scale only\t5. Toggle islands\n",
+            "jp": "別の地図を開きますか？\n\n1. いいえ、終了します\t2. 初めに戻る\t3. 候補者を変更する\t4. スケーリングを変更する\t5. 島嶼部の有無を変更する\n",
+            "es": "Abrir otro mapa?\n\n1. No, salir\t2. Regresar al comienzo\t3. Cambiar sólo al candidato\t4. Cambiar sólo la escala\t5. Alternar islas\n"
+        }
+    },
+    "misc": {
+        "others_combined": {
+            "en": "Others combined",
+            "jp": "4位以下の合計",
+            "es": "Candidatos menores combinados"
+        },
+        "voter_turnout": {
+            "en": "Voter turnout",
+            "jp": "投票率",
+            "es": "Participación electoral"
+        },
+        "language": {
+            "en": "Language: English",
+            "jp": "言語: 日本語",
+            "es": "Idioma: Español"
+        },
+        "exclude_islands": {
+            "en": "Islands excluded?",
+            "jp": "島嶼部除いている？",
+            "es": "Islas periféricas excluidas?"
+        }
+    },
+    "candidate_map": {
+        "en": {"1": ["Koike Yuriko", "Incumbent; right-wing"], "2": ["Ishimaru Shinji", "Upstart; populist?"], "3": ["Renho", "Left-wing"], "4": ["Tomogami Toshio", "Racist"], "5": ["Anno Takahiro"], "6": ["Utsumi Satoru", "Racist"], "7": ["Himasora Akane", "Virtual avatar"], "8": ["Ishimaru Yukito"], "9": ["Sakurai Makoto", "Ultraracist"], "10": ["Shimizu Kuniaki"], "11": ["Doctor Nakamatsu"], "12": ["Yamato Yukio"], "13": ["Kobayashi Hiroshi"], "14": ["Goto Teruki", "Love and Peace Party"], "15": ["Kimiya Mitsuki", "Universal Basic Income"], "16": ["Fukumoto Shigeyuki"], "17": ["AI Mayor", "Virtual avatar"], "18": ["Naito Hisao"], "19": ["Yokoyama Midori", "The Party to Protect the People from NHK"], "20": ["Uchino Airi", "Porn star"], "21": ["Kawai Yusuke", "Joker"], "22": ["Kogo Masanori"], "23": ["Kurokawa Atsuhiko", "Racist"], "24": ["Kuwahara Mariko"], "25": ["Fukunaga Katsuya", "The Party to Protect the People from NHK"], "26": ["Nomaguchi Sho"], "27": ["Sawa Shigemi"], "28": ["Ushikubo Nobuo", "Universal Basic Income"], "29": ["Komatsu Ken", "Golf Party"], "30": ["Endo Shinichi", "The Party to Protect the People from NHK"], "31": ["Ninomiya Taizo", "The Party to Protect the People from NHK"], "32": ["Takemoto Hideyuki"], "33": ["Akinori Shogunman", "Neo-Shogunate Party"], "34": ["Onodera Koki"], "35": ["Yamada Shinichi", "The Party to Protect the People from NHK"], "36": ["Kimura Yoshitaka", "The Party to Protect the People from NHK"], "37": ["Shindo Nobuo"], "38": ["Nakae Tomoya", "The Party to Protect the People from NHK"], "39": ["Kato Hideaki", "The Party to Protect the People from NHK"], "40": ["Kagata Takuji"], "41": ["Kato Kenichiro", "Conspiracy theorist"], "42": ["Hokari Jin"], "43": ["Maeda Taichi", "The Party to Protect the People from NHK"], "44": ["Kusao Atsushi", "The Party to Protect the People from NHK"], "45": ["Fukuhara Shirubi", "The Party to Protect the People from NHK"], "46": ["Takeuchi Takashi", "The Party to Protect the People from NHK"], "47": ["Ozeki Ayumi", "Poker Party"], "48": ["Inubuse Hiroaki", "The Party to Protect the People from NHK"], "49": ["Kuwajima Yasufumi", "Conspiracy theorist"], "50": ["Matsuo Yoshiharu", "The Party to Protect the People from NHK"], "51": ["Furuta Makoto"], "52": ["Funahashi Yumeto", "The Party to Protect the People from NHK"], "53": ["Miwa Yoichi", "The Party to Protect the People from NHK"], "54": ["Tsumura Daisaku", "The Party to Protect the People from NHK"], "55": ["Minami Shunsuke", "The Party to Protect the People from NHK"], "56": ["Joraku Muneyuki", "The Party to Protect the People from NHK"]},
+        "jp": {"1": ["小池　百合子", "現職、右派"], "2": ["石丸　伸二", "新興、ポピュリスト？"], "3": ["蓮舫", "左派"], "4": ["田母神　俊雄", "レイシスト"], "5": ["安野　貴博"], "6": ["内海　聡", "レイシスト"], "7": ["ひまそら　あかね", "アバター"], "8": ["石丸　幸人"], "9": ["桜井　誠", "ウルトラレイシスト"], "10": ["清水　国明"], "11": ["ドクター・中松"], "12": ["大和　行男"], "13": ["小林　弘"], "14": ["後藤　輝樹", "ラブ＆ピース党"], "15": ["木宮　光喜", "ベーシックインカム"], "16": ["福本　繁幸"], "17": ["ＡＩメイヤー", "アバター"], "18": ["内藤　久遠"], "19": ["横山　緑", "NHK党"], "20": ["内野　愛里", "AV女優"], "21": ["河合　悠祐", "ジョーカー"], "22": ["向後　真徳"], "23": ["黒川　敦彦", "レイシスト"], "24": ["桑原　真理子"], "25": ["福永　活也", "NHK党"], "26": ["野間口　翔"], "27": ["澤　繁実"], "28": ["牛窪　信雄", "ベーシックインカム"], "29": ["小松　賢", "ゴルフ党"], "30": ["遠藤　信一", "NHK党"], "31": ["二宮　大造", "NHK党"], "32": ["竹本　秀之"], "33": ["アキノリ将軍未満", "ネオ幕府アキノリ党"], "34": ["小野寺　紘毅"], "35": ["山田　信一", "NHK党"], "36": ["木村　嘉孝", "NHK党"], "37": ["新藤　伸夫"], "38": ["中江　友哉", "NHK党"], "39": ["加藤　英明", "NHK党"], "40": ["加賀田　卓志"], "41": ["加藤　健一郎", "陰謀論者"], "42": ["穂刈　仁"], "43": ["前田　太一", "NHK党"], "44": ["草尾　敦", "NHK党"], "45": ["福原　志瑠美", "NHK党"], "46": ["武内　隆", "NHK党"], "47": ["尾関　亜弓", "ポーカー党"], "48": ["犬伏　宏明", "NHK党"], "49": ["桑島　康文", "陰謀論者"], "50": ["松尾　芳治", "NHK党"], "51": ["古田　真"], "52": ["舟橋　夢人", "NHK党"], "53": ["三輪　陽一", "NHK党"], "54": ["津村　大作", "NHK党"], "55": ["南　俊輔", "NHK党"], "56": ["上楽　宗之", "NHK党"]},
+        "es": {"1": ["Koike Yuriko", "titular; derecha"], "2": ["Ishimaru Shinji", "sorpresa electoral; populista?"], "3": ["Renho", "izquierda"], "4": ["Tomogami Toshio", "racista"], "5": ["Anno Takahiro"], "6": ["Utsumi Satoru", "racista"], "7": ["Himasora Akane", "avatar virtual"], "8": ["Ishimaru Yukito"], "9": ["Sakurai Makoto", "ultraracista"], "10": ["Shimizu Kuniaki"], "11": ["Doctor Nakamatsu"], "12": ["Yamato Yukio"], "13": ["Kobayashi Hiroshi"], "14": ["Goto Teruki", "Partido de Paz y Amor"], "15": ["Kimiya Mitsuki", "ingreso básico universal"], "16": ["Fukumoto Shigeyuki"], "17": ["AI Mayor", "avatar virtual"], "18": ["Naito Hisao"], "19": ["Yokoyama Midori", "Partido para Proteger a la Gente del NHK"], "20": ["Uchino Airi", "actriz porno"], "21": ["Kawai Yusuke", "el Joker"], "22": ["Kogo Masanori"], "23": ["Kurokawa Atsuhiko", "racista"], "24": ["Kuwahara Mariko"], "25": ["Fukunaga Katsuya", "Partido para Proteger a la Gente del NHK"], "26": ["Nomaguchi Sho"], "27": ["Sawa Shigemi"], "28": ["Ushikubo Nobuo", "ingreso básico universal"], "29": ["Komatsu Ken", "Partido del Golf"], "30": ["Endo Shinichi", "Partido para Proteger a la Gente del NHK"], "31": ["Ninomiya Taizo", "Partido para Proteger a la Gente del NHK"], "32": ["Takemoto Hideyuki"], "33": ["Akinori Shogunman", "Partido Neo-Shogunato"], "34": ["Onodera Koki"], "35": ["Yamada Shinichi", "Partido para Proteger a la Gente del NHK"], "36": ["Kimura Yoshitaka", "Partido para Proteger a la Gente del NHK"], "37": ["Shindo Nobuo"], "38": ["Nakae Tomoya", "Partido para Proteger a la Gente del NHK"], "39": ["Kato Hideaki", "Partido para Proteger a la Gente del NHK"], "40": ["Kagata Takuji"], "41": ["Kato Kenichiro", "teoría de la conspiración"], "42": ["Hokari Jin"], "43": ["Maeda Taichi", "Partido para Proteger a la Gente del NHK"], "44": ["Kusao Atsushi", "Partido para Proteger a la Gente del NHK"], "45": ["Fukuhara Shirubi", "Partido para Proteger a la Gente del NHK"], "46": ["Takeuchi Takashi", "Partido para Proteger a la Gente del NHK"], "47": ["Ozeki Ayumi", "Partido Poker"], "48": ["Inubuse Hiroaki", "Partido para Proteger a la Gente del NHK"], "49": ["Kuwajima Yasufumi", "teoría de la conspiración"], "50": ["Matsuo Yoshiharu", "Partido para Proteger a la Gente del NHK"], "51": ["Furuta Makoto"], "52": ["Funahashi Yumeto", "Partido para Proteger a la Gente del NHK"], "53": ["Miwa Yoichi", "Partido para Proteger a la Gente del NHK"], "54": ["Tsumura Daisaku", "Partido para Proteger a la Gente del NHK"], "55": ["Minami Shunsuke", "Partido para Proteger a la Gente del NHK"], "56": ["Joraku Muneyuki", "Partido para Proteger a la Gente del NHK"]}
+    },
+    "scale_map": {
+        "en": {"1": "MaxMin-scaled (min=0, max=100)", "2": "Max-scaled (min=min, max=100)", "3": "Unscaled (min=min, max=max)"},
+        "jp": {"1": "最小-最大スケーリング (最小値=0, 最大値=100)", "2": "最大スケーリング (最小値=最小値, 最大値=100)", "3": "非スケーリング（最小値=最小値, 最大値=最大値）"},
+        "es": {"1": "escala MaxMin (min=0, max=100)", "2": "escala Max (min=min, max=100)", "3": "sin escala (min=min, max=max)"}
+    },
+    "svg_data": {
+        "title": {
+            "en": "2024 Tokyo Gubernational Election Results",
+            "jp": "2024年 東京都知事選挙結果",
+            "es": "Resultados de la elección para el gobernador de Tokio 2024"
+        },
+        "candidate": {
+            "en": "Candidate",
+            "jp": "候補者",
+            "es": "Candidato"
+        },
+        "scale": {
+            "en": "Scale",
+            "jp": "スケーリング",
+            "es": "Escala"
+        },
+        "vote_range": {
+            "en": "Vote range",
+            "jp": "得票範囲",
+            "es": "Rango de votos"
+        },
+        "range_marker": {
+            "en": " - ",
+            "jp": "〜",
+            "es": " - "
+        },
+        "population": {
+            "en": "Pop",
+            "jp": "人口",
+            "es": "Pob"
+        },
+        "first_place": {
+            "en": "1st",
+            "jp": "1位",
+            "es": "1er"
+        },
+        "second_place": {
+            "en": "2nd",
+            "jp": "2位",
+            "es": "2do"
+        },
+        "third_place": {
+            "en": "3rd",
+            "jp": "3位",
+            "es": "3er"
+        },
+        "total_votes": {
+            "en": "Total votes",
+            "jp": "総得票数",
+            "es": "Votos totales"
+        },
+        "percentage": {
+            "en": "Percentage",
+            "jp": "得票率",
+            "es": "Porcentaje"
+        },
+        "legend_2nd_place": {
+            "en": "2nd = Renho",
+            "jp": "2位＝蓮舫",
+            "es": "2do = Renho"
+        },
+        "municipalities": {
+			"千代田区": "Chiyoda",
+			"中央区": "Chuo",
+			"港区": "Minato",
+			"新宿区": "Shinjuku",
+			"文京区": "Bunkyo",
+			"台東区": "Taito",
+			"墨田区": "Sumida",
+			"江東区": "Koto",
+			"品川区": "Shinagawa",
+			"目黒区": "Meguro",
+			"大田区": "Ota",
+			"世田谷区": "Setagaya",
+			"渋谷区": "Shibuya",
+			"中野区": "Nakano",
+			"杉並区": "Suginami",
+			"豊島区": "Toshima",
+			"北区": "Kita",
+			"荒川区": "Arakawa",
+			"板橋区": "Itabashi",
+			"練馬区": "Nerima",
+			"足立区": "Adachi",
+			"葛飾区": "Katsushika",
+			"江戸川区": "Edogawa",
+			"八王子市": "Hachioji",
+			"立川市": "Tachikawa",
+			"武蔵野市": "Musashino",
+			"三鷹市": "Mitaka",
+			"青梅市": "Ome",
+			"府中市": "Fuchu",
+			"昭島市": "Akishima",
+			"調布市": "Chofu",
+			"町田市": "Machida",
+			"小金井市": "Koganei",
+			"小平市": "Kodaira",
+			"日野市": "Hino",
+			"東村山市": "Higashi-Murayama",
+			"国分寺市": "Kokubunji",
+			"国立市": "Kunitachi",
+			"福生市": "Fussa",
+			"狛江市": "Komae",
+			"東大和市": "Higashi-Yamato",
+			"清瀬市": "Kiyose",
+			"東久留米市": "Higashi-Kurume",
+			"武蔵村山市": "Musashi-Murayama",
+			"多摩市": "Tama",
+			"稲城市": "Inagi",
+			"羽村市": "Hamura",
+			"あきる野市": "Akiruno",
+			"西東京市": "Nishi-Tokyo",
+			"瑞穂町": "Mizuho",
+			"日の出町": "Hinode",
+			"檜原村": "Hinohara",
+			"奥多摩町": "Okutama",
+			"大島町": "Oshima",
+			"利島村": "Toshima (village)",
+			"新島村": "Niijima",
+			"神津島村": "Kozushima",
+			"三宅村": "Miyake",
+			"御蔵島村": "Mikurajima",
+			"八丈町": "Hachijo",
+			"青ヶ島村": "Aogashima",
+			"小笠原村": "Ogasawara"
+        }
+    }
+}
